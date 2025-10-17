@@ -102,7 +102,7 @@ ol {
     gap: 5px;
 }
 
-.search-form__label:has(:focus) {
+.search-form__label:has(:focus-visible) {
     outline: 1px solid #fff;
     outline-offset: 1px;
 }
@@ -142,7 +142,8 @@ ol {
     background-color: #fff;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after,
+.search-form__checkbox:active + .search-form__pseudo-checkbox::after {
     opacity: 1;
 }
 
@@ -203,17 +204,20 @@ ol {
 
 .content__list-container {
     display: flex;
+    overflow-x: hidden;
     overflow-y: auto;
     flex-direction: column;
     height: 298px;
     margin-top: 26px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-left: 2px;
     gap: 30px;
 }
 
 .content__list {
     display: flex;
     flex-direction: column;
-    padding-right: 3px;
     gap: 30px;
 }
 
@@ -231,7 +235,7 @@ ol {
 .content__video-card-description-container {
     overflow: hidden;
     flex-grow: 1;
-    padding: 2px;
+    padding-top: 2px;
 }
 
 .content__video-card-title {
