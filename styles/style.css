@@ -12,7 +12,6 @@ html {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     display: flex;
-    overflow: hidden;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -157,7 +156,7 @@ ol {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    height: 34px;
+    min-height: 34px;
     cursor: pointer;
     color: #fff;
     border: 1px solid #fff;
@@ -208,7 +207,6 @@ ol {
 .content__list-container {
     position: relative;
     display: flex;
-    overflow-x: hidden;
     overflow-y: auto;
     flex-direction: column;
     height: 298px;
@@ -299,7 +297,6 @@ ol {
 }
 
 .more-button {
-    box-sizing: border-box;
     width: calc(100% - 2 * 2px);
     margin: 0 2px 2px 2px;
 }
