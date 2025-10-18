@@ -100,6 +100,7 @@ ol {
     align-items: center;
     width: fit-content;
     gap: 5px;
+    cursor: pointer
 }
 
 .search-form__label:has(:focus-visible) {
@@ -159,6 +160,7 @@ ol {
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
+    cursor: pointer
 }
 
 .button:hover {
@@ -227,6 +229,7 @@ ol {
     display: block;
     text-decoration: none;
     color: #fff;
+    cursor: pointer
 }
 
 .content__card-link:active {
