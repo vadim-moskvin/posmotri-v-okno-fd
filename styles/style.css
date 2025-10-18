@@ -62,6 +62,7 @@ ol {
 }
 
 .result__video-container {
+    position: relative;
     width: 711px;
     height: 386px;
 }
@@ -99,8 +100,8 @@ ol {
     display: flex;
     align-items: center;
     width: fit-content;
+    cursor: pointer;
     gap: 5px;
-    cursor: pointer
 }
 
 .search-form__label:has(:focus-visible) {
@@ -157,10 +158,10 @@ ol {
     font-size: 18px;
     font-weight: bold;
     height: 34px;
+    cursor: pointer;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
-    cursor: pointer
 }
 
 .button:hover {
@@ -205,6 +206,7 @@ ol {
 }
 
 .content__list-container {
+    position: relative;
     display: flex;
     overflow-x: hidden;
     overflow-y: auto;
@@ -227,9 +229,9 @@ ol {
 
 .content__card-link {
     display: block;
+    cursor: pointer;
     text-decoration: none;
     color: #fff;
-    cursor: pointer
 }
 
 .content__card-link:active {
@@ -281,8 +283,8 @@ ol {
     line-height: 1em;
     display: -webkit-box;
     overflow: hidden;
-    padding-bottom: 2px;
     margin-top: 2px;
+    padding-bottom: 2px;
     text-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
